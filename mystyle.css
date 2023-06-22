@@ -442,7 +442,8 @@ footer {
     animation: changeImage2 5s infinite;
 }
 
-
+.full_screen{
+    height: 100vh;}
 
 .marquee_text {
     margin-top: 1.5rem;
