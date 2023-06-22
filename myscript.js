@@ -22,7 +22,7 @@ $(document).ready(()=>{
 })
 
 function changeImage() {
-    if (document.getElementById("imgClickAndChange").src == "http://127.0.0.1:3000/4_INTERVIEW/layout_dice.png"){
+    if (document.getElementById("imgClickAndChange").src == "https://yaseminbng.github.io/RWD23/4_INTERVIEW/layout_dice.png"){
         document.getElementById("imgClickAndChange").src = "./4_INTERVIEW/dice.png";
     } else {
         document.getElementById("imgClickAndChange").src = "./4_INTERVIEW/layout_dice.png";
@@ -40,9 +40,9 @@ function chooseBox2() {
 }
 
 function clickBox() {
-    if (document.getElementById("box").src == "http://127.0.0.1:3000/3_CHOOSEABOX/ChooseABox_1.png"){
+    if (document.getElementById("box").src == "https://yaseminbng.github.io/RWD23/3_CHOOSEABOX/ChooseABox_1.png"){
         document.getElementById("box").src = "./3_CHOOSEABOX/ChooseABox_1+.gif";
-    }else if (document.getElementById("box").src == "http://127.0.0.1:3000/3_CHOOSEABOX/ChooseABox_2.png"){
+    }else if (document.getElementById("box").src == "https://yaseminbng.github.io/RWD23/3_CHOOSEABOX/ChooseABox_2.png"){
         document.getElementById("box").src = "./3_CHOOSEABOX/ChooseABox_2+.gif";
     } else{
         document.getElementById("box").src = "./3_CHOOSEABOX/ChooseABox_0.png";
