@@ -40,12 +40,12 @@ function chooseBox2() {
 }
 
 function clickBox() {
-    if (document.getElementById("box").src == "./3_CHOOSEABOX/ChooseABox_1.png"){
+    if (document.getElementById("box").src == "https://yaseminbng.github.io/RWD23/3_CHOOSEABOX/ChooseABox_1.png"){
        
-        document.getElementById("box").src = "./3_CHOOSEABOX/ChooseABox_1+.gif";
+        document.getElementById("box").src = "https://yaseminbng.github.io/RWD23/3_CHOOSEABOX/ChooseABox_1+.gif";
     }else if (document.getElementById("box").src == "https://yaseminbng.github.io/RWD23/3_CHOOSEABOX/ChooseABox_2.png"){
-        document.getElementById("box").src = "./3_CHOOSEABOX/ChooseABox_2+.gif";
+        document.getElementById("box").src = "https://yaseminbng.github.io/RWD23/3_CHOOSEABOX/ChooseABox_2+.gif";
     } else{
-        document.getElementById("box").src = "./3_CHOOSEABOX/ChooseABox_0.pngü";
+        document.getElementById("box").src = "https://yaseminbng.github.io/RWD23/3_CHOOSEABOX/ChooseABox_0.png";
     }
 }
