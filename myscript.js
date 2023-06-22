@@ -46,6 +46,6 @@ function clickBox() {
     }else if (document.getElementById("box").src == "https://yaseminbng.github.io/RWD23/3_CHOOSEABOX/ChooseABox_2.png"){
         document.getElementById("box").src = "./3_CHOOSEABOX/ChooseABox_2+.gif";
     } else{
-        document.getElementById("box").src = "./3_CHOOSEABOX/ChooseABox_0.png";
+        document.getElementById("box").src = "./3_CHOOSEABOX/ChooseABox_0.pngü";
     }
 }
