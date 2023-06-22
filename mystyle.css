@@ -8,31 +8,37 @@ body {
     margin:0;
 }
 
+.heading{
+    font-size: 8rem;
+    line-height: 8rem;
+    font-weight: 900;
+}
+
 h1 {
     margin: 0px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     font-family: 'MuseoModerno', cursive;
     font-weight: 700;
     font-style: normal;
-    font-size: 7rem;
-    line-height: 8rem;
+    font-size: 5rem;
+    line-height: 6rem;
     letter-spacing: -.02em;
     color: rgba(0, 0, 0, 0.8);
     -webkit-font-smoothing: antialiased;
 }
 
 .h1_emoji {
-    height: 7rem;
+    height: 5rem;
 }
 
 
 .sh2 {
     margin: 0px;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 10px;
     font-size: 2rem;
-    line-height: 3rem;
+    line-height: 4rem;
 }
 
 .sh2_emoji {
@@ -41,10 +47,10 @@ h1 {
 
 .sh3 {
     margin: 0px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    font-size: 1.5rem;
-    line-height: 2rem;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 1rem;
+    line-height: 3rem;
 }
 
 .sh3_emoji {
@@ -207,7 +213,15 @@ footer {
 }
 
 
-
+.textbox{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.Text_block{
+    width: 80%;
+    margin-right: auto;
+    margin-left:auto;
+}
 
 .button_wrapper {
     margin-top: 40px;
@@ -283,6 +297,7 @@ footer {
 .header_logo {
     width: 80%;
     max-width: 600px;
+    margin-bottom: 60px;
 
 }
 
@@ -336,9 +351,7 @@ footer {
     padding: 0;
 }
 
-.box_wrapper {
-    max-width: 600px;
-}
+
 
 .unfold_box_wrapper {
     max-width: 600px;
@@ -499,6 +512,11 @@ footer {
 
     }
 }
+.desktop_content_wrapper{
+    display:flex;
+    flex-direction: column;
+}
+
 
 .link_hover:hover .link {
     text-decoration: underline;
@@ -519,11 +537,13 @@ footer {
 
 .image-container {
     height: 100vh;
-    /*padding-top: 45.347%;*/
     position: sticky;
     top: 0;
     background-size: cover;
     background-image: url('./1_HEADER_Würfel/Header_1.png');
+}
+.project_text{
+    width: 80%;
 }
 
 
@@ -540,5 +560,43 @@ footer {
     }
     .AboutMe_wrapper {
         margin-top: 10%;
+    }
+    .sh2{
+        font-size: 2rem;
+        line-height: 2.5rem;
+        font-weight: 900;
+    }
+    .sh3{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    .desktop_content_wrapper{
+        
+        flex-direction: row;
+        align-items: center;
+    }
+    .AboutMe_wrapper{
+        padding-right: 60px;
+    }
+    .reversed{
+        flex-direction: row-reverse!important;
+    }
+    .textbox{
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .choose_a_box_wrapper{
+        flex-direction: column;
+        justify-content: right;
+        align-items: end;
+        padding-right: 40px;
+    }
+    .tilt{
+        
+        transform: rotate(-90deg);
+    }
+    .label{
+        width: 30%
     }
 }
