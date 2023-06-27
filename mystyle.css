@@ -37,20 +37,20 @@ h1 {
     margin: 0px;
     padding-top: 30px;
     padding-bottom: 10px;
-    font-size: 2rem;
-    line-height: 4rem;
+    font-size: 3rem;
+    line-height: 3.5rem;
 }
 
 .sh2_emoji {
-    height: 2rem;
+    height: 2.5rem;
 }
 
 .sh3 {
     margin: 0px;
     padding-top: 10px;
     padding-bottom: 30px;
-    font-size: 1rem;
-    line-height: 3rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
 }
 
 .sh3_emoji {
@@ -66,7 +66,7 @@ h1 {
 }
 
 .navbar {
-    height: 10vh;
+    height: 6vh;
 }
 
 .navbar_wrapper.white_bg {
@@ -100,19 +100,16 @@ h1 {
     position: relative;
     margin-left: 10px;
     background-color: white;
-    width: 30%;
+    width: 10%;
     height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .red_box {
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 10%;
-    right: auto;
-    top: -10%;
-    width: 80%;
-    height: 100%;
+ 
+    width: 4vh;
+    height: 4vh;
     background-color: #C8102E;
 }
 
@@ -442,8 +439,7 @@ footer {
     animation: changeImage2 5s infinite;
 }
 
-.full_screen{
-    height: 100vh;}
+
 
 .marquee_text {
     margin-top: 1.5rem;
@@ -538,17 +534,59 @@ footer {
 
 .image-container {
     height: 100vh;
+
     position: sticky;
     top: 0;
     background-size: cover;
     background-image: url('./1_HEADER_Würfel/Header_1.png');
+    background-position: center center;
+    background-repeat:no-repeat;
 }
 .project_text{
     width: 80%;
 }
 
+.footer_logo{
+    font-size: 1.5rem;
+}
+.text_wrapper{
+    width:100%;
+    text-align: center;
+    
+}
+p.link.sh3{
+    padding-bottom: 0;
+}
+
+.shake {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 1s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(0, 0) rotate(0deg); }
+    25% { transform: translate(5px, 5px) rotate(5deg); }
+    50% { transform: translate(0, 0) rotate(0eg); }
+    75% { transform: translate(-5px, 5px) rotate(-5deg); }
+    100% { transform: translate(0, 0) rotate(0deg); }
+  }
+
 
 @media (min-width: 1025px) {
+    .text_wrapper{
+        width:50%;
+        text-align:left
+        
+    }
+    .overtext{
+        margin-right:auto;
+        margin-left: auto;
+        max-width: 400px;
+        margin-bottom: 0;
+    }
     .desktop {
         display: block;
     }
@@ -563,13 +601,13 @@ footer {
         margin-top: 10%;
     }
     .sh2{
-        font-size: 2rem;
-        line-height: 2.5rem;
+        font-size: 3rem;
+        line-height: 3.5rem;
         font-weight: 900;
     }
     .sh3{
-        font-size: 1.5rem;
-        line-height: 2rem;
+        font-size: 2rem;
+        line-height: 2.5rem;
     }
     .desktop_content_wrapper{
         
@@ -600,4 +638,18 @@ footer {
     .label{
         width: 30%
     }
+    .box_wrapper{
+        margin-top: 0px;
+    }
+    .no_margin_bottom{
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    p.link.sh3{
+        padding-bottom: 0;
+    }
+    #box{
+        max-height: 800px;
+    }
+    
 }
